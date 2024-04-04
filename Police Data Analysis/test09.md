@@ -1,3 +1,10 @@
+___
+
+<a href='http://www.pieriandata.com'><img src='../Pierian_Data_Logo.png'/></a>
+___
+<center><em>Copyright by Pierian Data Inc.</em></center>
+<center><em>For more information, visit us at <a href='http://www.pieriandata.com'>www.pieriandata.com</a></em></center>
+
 # Linear Regression with SciKit-Learn
 
 We saw how to create a very simple best fit line, but now let's greatly expand our toolkit to start thinking about the considerations of overfitting, underfitting, model evaluation, as well as multiple features!
@@ -6,7 +13,6 @@ We saw how to create a very simple best fit line, but now let's greatly expand o
 
 
 ```python
-# In[1]
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -19,13 +25,11 @@ This sample data is from ISLR. It displays sales (in thousands of units) for a p
 
 
 ```python
-# In[2]
 df = pd.read_csv("Advertising.csv")
 ```
 
 
 ```python
-# In[3]
 df.head()
 ```
 
@@ -33,6 +37,19 @@ df.head()
 
 
 <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -93,7 +110,6 @@ Previously, we explored **Is there a relationship between *total* advertising sp
 
 
 ```python
-# In[4]
 fig,axes = plt.subplots(nrows=1,ncols=3,figsize=(16,6))
 
 axes[0].plot(df['TV'],df['sales'],'o')
@@ -109,6 +125,10 @@ axes[2].set_title("Newspaper Spend");
 axes[2].set_ylabel("Sales")
 plt.tight_layout();
 ```
+
+
+    
+![png](output_9_0.png)
     
 
 
@@ -124,6 +144,10 @@ sns.pairplot(df,diag_kind='kde')
     <seaborn.axisgrid.PairGrid at 0x216014fb648>
 
 
+
+
+    
+![png](output_10_1.png)
     
 
 
@@ -164,6 +188,19 @@ X_train
 
 
 <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -279,6 +316,19 @@ X_test
 
 
 <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1748,6 +1798,19 @@ coeff_df
 
 
 <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1804,6 +1867,19 @@ df.corr()
 
 
 <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
