@@ -1,6 +1,5 @@
-<h1 style="font-weight: 900; color: #000; text-align:center;">Ploice Data Analyst - Data Analyst with Python</h1>
-
-<style>
+<head>
+    <style>
     h2{
         color:bisque;
         text-decoration:underline;
@@ -13,6 +12,10 @@
         font-weight: 700;
     }
 </style>
+</head>
+<h1 style="font-weight: 900; color: #000; text-align:center;">Ploice Data Analyst - Data Analyst with Python</h1>
+
+
 
 
 <h2 style="font-weight: bold; font-size: 20px;">💻 Problem Solving: </h2>
@@ -49,10 +52,10 @@ import seaborn as sns
 import datetime as dt
 import tensorflow as tf
 ```
-# Out[1]
+
 
     ---------------------------------------------------------------------------
-
+    # Out[1]
     ModuleNotFoundError                       Traceback (most recent call last)
 
     Cell In[1], line 7
