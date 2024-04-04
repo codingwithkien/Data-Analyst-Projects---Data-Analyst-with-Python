@@ -1,18 +1,4 @@
-<head>
-    <style>
-    h2{
-        color:bisque;
-        text-decoration:underline;
-    }
-    li{
-        font-size: 16px;
-        margin: 10px 0;
-    }
-    span{
-        font-weight: 700;
-    }
-</style>
-</head>
+
 <h1 style="font-weight: 900; color: #000; text-align:center;">Ploice Data Analyst - Data Analyst with Python</h1>
 
 
@@ -268,19 +254,6 @@ df.describe()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
