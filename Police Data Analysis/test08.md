@@ -6,6 +6,7 @@ We saw how to create a very simple best fit line, but now let's greatly expand o
 
 
 ```python
+# In[1]
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -18,6 +19,7 @@ This sample data is from ISLR. It displays sales (in thousands of units) for a p
 
 
 ```python
+# In[2]
 df = pd.read_csv("Advertising.csv")
 ```
 
