@@ -25,6 +25,7 @@ df = pd.read_csv("Advertising.csv")
 
 
 ```python
+# In[3]
 df.head()
 ```
 
@@ -92,6 +93,7 @@ Previously, we explored **Is there a relationship between *total* advertising sp
 
 
 ```python
+# In[4]
 fig,axes = plt.subplots(nrows=1,ncols=3,figsize=(16,6))
 
 axes[0].plot(df['TV'],df['sales'],'o')
