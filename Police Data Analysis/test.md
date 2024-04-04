@@ -13,6 +13,8 @@
         font-weight: 700;
     }
 </style>
+
+
 <h2 style="font-weight: bold; font-size: 20px;">💻 Problem Solving: </h2>
 <ul>
     <li>
@@ -38,6 +40,7 @@
 
 
 ```python
+# In[1]
 # import necessary libraries
 import numpy as np
 import pandas as pd
@@ -46,7 +49,7 @@ import seaborn as sns
 import datetime as dt
 import tensorflow as tf
 ```
-
+# Out[1]
 
     ---------------------------------------------------------------------------
 
